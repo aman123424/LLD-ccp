@@ -1,4 +1,4 @@
-// Static Polymorphism -> Happens in the same class with same function name but different input parameters. It is achieved through method overloading.
+// Static Polymorphism (Compile time)-> Happens in the same class with same function name but different input parameters. It is achieved through method overloading.
 
 #include <iostream>
 using namespace std;
