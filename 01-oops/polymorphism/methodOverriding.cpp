@@ -1,4 +1,6 @@
-// Dynamic Polymorphism
+// Dynamic Polymorphism -> Happens in different classes with same function name but different implementation. It is achieved through method overriding.
+// Generally between parent and child class. The parent class function is declared as virtual and the child class function overrides it. The function to be called is determined at runtime based on the object type.
+// Everything is same in both functions, only the logic is different. The function signature is same in both parent and child class (name, input and return type all are same). The function to be called is determined at runtime based on the object type.
 
 #include <iostream>
 using namespace std;
