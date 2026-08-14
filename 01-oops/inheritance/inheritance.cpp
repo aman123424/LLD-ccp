@@ -1,4 +1,4 @@
-// Inheritance allows a class (Child class) to acquire data and methods from another class (Parent class).
+// Inheritance allows a class (Child class) to acquire data and methods from another class (Parent class) by inheriting from it.
 
 #include <iostream>
 using namespace std;
