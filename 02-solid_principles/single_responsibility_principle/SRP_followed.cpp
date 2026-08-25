@@ -72,18 +72,19 @@ public:
 // Responsilble for saving to database
 class SaveCartToDB
 {
-    private:
-        ShoppingCart* cart;
+private:
+    ShoppingCart *cart;
 
-    public:
-        SaveCartToDB(ShoppingCart* cart) {
-            this->cart = cart;
-        }
+public:
+    SaveCartToDB(ShoppingCart *cart)
+    {
+        this->cart = cart;
+    }
 
-        void saveToDB()
-        {
-            cout << "Saving Shopping Cart to database..." << endl;
-        }
+    void saveToDB()
+    {
+        cout << "Saving Shopping Cart to database..." << endl;
+    }
 };
 
 int main()
